@@ -1,0 +1,12 @@
+<template>
+  <div class="">
+      <input type="text" class="bg-gray-200 px-4 py-3 rounded-bl-lg rounded-tl-lg w-10/12" placeholder="Type anything..."/>
+      <button class="bg-yellow-400 text-white px-4 py-3 rounded-br-lg rounded-tr-lg font-bold w-1/12 hover:bg-yellow-500"><i class="fa fa-search"></i></button>
+  </div>
+</template>
+
+<script>
+export default {
+    name: 'SearchPage',
+}
+</script>
