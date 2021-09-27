@@ -5,14 +5,18 @@
         <button class="bg-yellow-400 text-white px-4 py-3 rounded-br-lg rounded-tr-lg font-bold w-1/12 hover:bg-yellow-500"><i class="fa fa-search"></i></button>
     </div>
     <div class="bg-gray-100 p-8 rounded-lg mt-5 flex flex-wrap">
-
+      <Gif></Gif>
     </div>
   </div>
 </template>
 
 <script>
+import Gif from './Gif.vue';
 export default {
     name: 'SearchPage',
+    components: {
+      Gif
+    }
 }
 images = [
     {
