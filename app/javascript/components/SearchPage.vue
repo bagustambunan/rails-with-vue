@@ -6,14 +6,14 @@
     </div>
     <div class="bg-gray-100 p-8 rounded-lg mt-5 flex flex-wrap">
 
-        <!-- <Gif
+        <Gif
           v-for="data in images"
           :key="data.id"
-          img={{data.images.original.url}}
-          title={{data.title}}
-        ></Gif> -->
+          :img="data.images.original.url"
+          :title="data.title"
+        ></Gif>
 
-        <div
+        <!-- <div
           v-for="data in images"
           :key="data.id">
           <Gif
@@ -21,7 +21,7 @@
             title="data.title"
           ></Gif>
           {{data.title}}
-        </div>
+        </div> -->
 
     </div>
   </div>
